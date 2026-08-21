@@ -68,6 +68,10 @@ int main(int argc, char **argv){
         
             char *token_cadastro[20];
             token_cadastro[0] = strtok(task, " ");
+            if(token_cadastro[0] == NULL){
+                printf("linha vazia");
+                continue;
+            }
             
             for(int i = 1; (token_cadastro[i] = strtok(NULL, " ")) != NULL; i++){}
 
