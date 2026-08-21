@@ -45,7 +45,10 @@ int main(int argc, char **argv){
                     break; 
 
                 }
-                task[strlen(task) - 1] = '\0';
+                int tam_palavra = strlen(task);
+                if(task[tam_palavra - 1] == '\n'){
+                    task[strlen(task) - 1] = '\0';
+                }
                 printf("%s\n", task);
                 if(strcmp(task, "exit") == 0 ){
                     should_run = 0;
@@ -53,6 +56,7 @@ int main(int argc, char **argv){
                 
                 } 
             }
+            fclose(workfile);
         }
         printf("teste de rodagem, should run deve estar zerado: %d ", should_run);
     }
