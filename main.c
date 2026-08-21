@@ -44,6 +44,7 @@ int main(int argc, char **argv){
                     should_run = 0;
                     break; 
 
+                    
                 }
                 int tam_palavra = strlen(task);
                 if(task[tam_palavra - 1] == '\n'){
