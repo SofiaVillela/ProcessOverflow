@@ -12,6 +12,6 @@ typedef struct Cadastro{
 
 void cadastra_task(char **token_cadastro, Cadastro **lista_task);
 Cadastro *procurar_task(char *nome, Cadastro *lista_task);
-void executar_task(Cadastro *task);
+pid_t executar_task(Cadastro *task);
 
 #endif

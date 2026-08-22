@@ -23,7 +23,6 @@ int main(int argc, char **argv){
             fflush(stdout);
 
             if(fgets(task, TAM_TASK, stdin) == NULL) break; 
-
             task[strlen(task) - 1] = '\0';
         
             char *token_cadastro[20];
@@ -39,6 +38,8 @@ int main(int argc, char **argv){
                 cadastra_task(token_cadastro, &lista_task);
             }
             
+
+
             else if(strcmp(token_cadastro[0], "run") == 0){
                 if(strcmp(token_cadastro[1], "sequential") == 0){
                     for(int i = 2; token_cadastro[i]!= NULL; i++){
@@ -47,21 +48,43 @@ int main(int argc, char **argv){
                         if(task_encontrada == NULL){
                             printf("task nao encontrada\n");
                         }
-                        else executar_task(task_encontrada);
-                        
+                        else {
+                            executar_task(task_encontrada);
+                            wait(NULL);
+                        }
                     }
                 }
 
-                else if(strcmp(token_cadastro[1], "parallel") == 0){
 
+
+                else if(strcmp(token_cadastro[1], "parallel") == 0){
+                    int quant_tasks = 0;
+                    for(int i = 2; token_cadastro[i] != NULL; i++){
+                        Cadastro *task_encontrada = procurar_task(token_cadastro[i], lista_task);
+                        if(task_encontrada == NULL){
+                            printf("task nao encontrada\n");
+                        }
+                        else {
+                            executar_task(task_encontrada);
+                            quant_tasks++;
+                        }
+                    }
+                    for(int i = 0; i < quant_tasks; i++){
+                        wait(NULL);
+                    }
                 }
+
+
+
                 else{
                     Cadastro *task_encontrada = procurar_task(token_cadastro[1], lista_task);
                     if(task_encontrada == NULL){ 
                         printf("task nao encontrada\n"); 
                     }
-                    else executar_task(task_encontrada); 
-
+                    else{
+                        executar_task(task_encontrada); 
+                        wait(NULL);
+                    }
                 }
             }
 

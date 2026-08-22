@@ -58,7 +58,7 @@ Cadastro *procurar_task(char *nome, Cadastro *lista_task){
     return NULL;
 }
 
-void executar_task(Cadastro *task){
+pid_t executar_task(Cadastro *task){
     char *path_exec[MAX_ARGS + 2];
     path_exec[0] = task->programa;
     int i;
@@ -70,7 +70,7 @@ void executar_task(Cadastro *task){
     pid_t pid = fork();
     if(pid < 0){
         printf("Erro: fork falhou.");
-        return;
+        return -1;
     }
     
     if(pid == 0){
@@ -78,7 +78,7 @@ void executar_task(Cadastro *task){
         printf("erro: execvp falhou, programa: %s \n", path_exec[0]);
         exit(1);
     }
-    else wait(NULL);
+    return pid;
 
 }
 

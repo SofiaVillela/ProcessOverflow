@@ -352,4 +352,67 @@ processflow> exit
 
 The most similar command is
 	add
-[?2004h]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/p
+[?2004h]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ git add.[K[Kd /[K.
+[?2004l[?2004h]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ git commit -m 'feat: sequential[1@r[1@u[1@n[C[C[C[C[C[C[C[C[C[C[C funcionano[Kdo :)'
+[?2004l[main 7194575] feat:run sequential funcionando :)
+ 3 files changed, 57 insertions(+), 10 deletions(-)
+[?2004h]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ git push
+[?2004lEnumerating objects: 9, done.
+Counting objects:  11% (1/9)Counting objects:  22% (2/9)Counting objects:  33% (3/9)Counting objects:  44% (4/9)Counting objects:  55% (5/9)Counting objects:  66% (6/9)Counting objects:  77% (7/9)Counting objects:  88% (8/9)Counting objects: 100% (9/9)Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects:  20% (1/5)Compressing objects:  40% (2/5)Compressing objects:  60% (3/5)Compressing objects:  80% (4/5)Compressing objects: 100% (5/5)Compressing objects: 100% (5/5), done.
+Writing objects:  20% (1/5)Writing objects:  40% (2/5)Writing objects:  60% (3/5)Writing objects:  80% (4/5)Writing objects: 100% (5/5)Writing objects: 100% (5/5), 2.53 KiB | 83.00 KiB/s, done.
+Total 5 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas:   0% (0/4)[Kremote: Resolving deltas:  25% (1/4)[Kremote: Resolving deltas:  50% (2/4)[Kremote: Resolving deltas:  75% (3/4)[Kremote: Resolving deltas: 100% (4/4)[Kremote: Resolving deltas: 100% (4/4), completed with 4 local objects.[K
+To https://github.com/SofiaVillela/ProcessOverflow.git
+   bc7b5a8..7194575  main -> main
+[?2004h]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ [KScript started on 2026-08-22 16:47:22-03:00 [TERM="xterm-256color" TTY="/dev/pts/12" COLUMNS="164" LINES="17"]
+[?2004h]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ script -a evidencias.log[16Pgit pushcommit -m ' generaliza procurar_task para receber nome direto reestrutura ordem do run parallel e sequential'[A]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ [C[C[C[Cadd .[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./processflowgcc -o processflow main.c funcoes.cit push[Kcc -o processflow main.c funcoes.c
+[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmain.c:62:66:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K)[m[K’ token
+   62 |                     for(int i = 2; token_cadastro[i] != NULL, i++[01;31m[K)[m[K{
+      |                                                                  [01;31m[K^[m[K
+      |                                                                  [32m[K;[m[K
+[?2004h]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ gcc -o processflow main.c funcoes.c
+[?2004l[?2004h]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ gcc -o processflow main.c funcoes.c[11Pscript -a evidencias.log[16Pgit pushcommit -m ' generaliza procurar_task para receber nome direto reestrutura ordem do run parallel e sequential'[A]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ [C[C[C[Cadd .[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./processflow
+[?2004lprocessflow> task para      paralel  lel  test - /bin/ls -l
+processflow> task testeparale lel /bin/date -  
+processflow> run parallel  teste  teste eparallel
+total 112
+-rwxrwxrwx 1 sofiavillela sofiavillela     0 Aug 20 11:14 Makefile
+-rwxrwxrwx 1 sofiavillela sofiavillela   105 Aug 20 11:14 README.md
+-rwxrwxrwx 1 sofiavillela sofiavillela 77831 Aug 22 16:47 evidencias.log
+-rwxrwxrwx 1 sofiavillela sofiavillela  2003 Aug 22 16:37 funcoes.c
+-rwxrwxrwx 1 sofiavillela sofiavillela   380 Aug 22 16:38 funcoes.h
+-rwxrwxrwx 1 sofiavillela sofiavillela  4285 Aug 22 16:47 main.c
+-rwxrwxrwx 1 sofiavillela sofiavillela 16832 Aug 22 16:47 processflow
+-rwxrwxrwx 1 sofiavillela sofiavillela     1 Aug 21 16:19 teste.pf
+processflow> exit
+[?2004h]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/UserScript started on 2026-08-22 16:51:16-03:00 [TERM="xterm-256color" TTY="/dev/pts/14" COLUMNS="164" LINES="17"]
+[?2004h]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ script -a evidencias.log[16Pgit pushcommit -m ' generaliza procurar_task para receber nome direto reestrutura ordem do run parallel e sequential'[A]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ [C[C[C[Cadd .[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./processflowgcc -o processflow main.c funcoes.c
+[?2004l[?2004h]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ gcc -o processflow main.c funcoes.c[11Pscript -a evidencias.log[16Pgit pushcommit -m ' generaliza procurar_task para receber nome direto reestrutura ordem do run parallel e sequential'[A]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ [C[C[C[Cadd .[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./processflow
+[?2004lprocessflow> task tes  esteparallel /bin/ls -l
+processflow> task paralleltest /bin/dar te
+processflow> run parallel testeparallel paralleltest
+Sat Aug 22 16:52:10 -03 2026
+total 112
+-rwxrwxrwx 1 sofiavillela sofiavillela     0 Aug 20 11:14 Makefile
+-rwxrwxrwx 1 sofiavillela sofiavillela   105 Aug 20 11:14 README.md
+-rwxrwxrwx 1 sofiavillela sofiavillela 80903 Aug 22 16:52 evidencias.log
+-rwxrwxrwx 1 sofiavillela sofiavillela  2003 Aug 22 16:37 funcoes.c
+-rwxrwxrwx 1 sofiavillela sofiavillela   380 Aug 22 16:38 funcoes.h
+-rwxrwxrwx 1 sofiavillela sofiavillela  4284 Aug 22 16:50 main.c
+-rwxrwxrwx 1 sofiavillela sofiavillela 16832 Aug 22 16:51 processflow
+-rwxrwxrwx 1 sofiavillela sofiavillela     1 Aug 21 16:19 teste.pf
+processflow> run q sequential testeparallel paralleltest
+total 112
+-rwxrwxrwx 1 sofiavillela sofiavillela     0 Aug 20 11:14 Makefile
+-rwxrwxrwx 1 sofiavillela sofiavillela   105 Aug 20 11:14 README.md
+-rwxrwxrwx 1 sofiavillela sofiavillela 81415 Aug 22 16:52 evidencias.log
+-rwxrwxrwx 1 sofiavillela sofiavillela  2003 Aug 22 16:37 funcoes.c
+-rwxrwxrwx 1 sofiavillela sofiavillela   380 Aug 22 16:38 funcoes.h
+-rwxrwx]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ [K]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ [K]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processo
