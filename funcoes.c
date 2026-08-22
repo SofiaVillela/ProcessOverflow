@@ -41,7 +41,7 @@ void cadastra_task(char **token_cadastro, Cadastro **lista_task){
 }
 
 
-Cadastro *procurar_task(char **token_cadastro, Cadastro *lista_task){
+Cadastro *procurar_task(char *nome, Cadastro *lista_task){
     if(lista_task == NULL){
         printf("Erro: nenhuma task foi cadastrada");
         return NULL;
@@ -50,7 +50,7 @@ Cadastro *procurar_task(char **token_cadastro, Cadastro *lista_task){
     Cadastro *procurar = lista_task;
 
     while(procurar != NULL){
-        if(strcmp(token_cadastro[1],procurar->nome) == 0){
+        if(strcmp(nome,procurar->nome) == 0){
             return procurar;
         }
         procurar = procurar->next;

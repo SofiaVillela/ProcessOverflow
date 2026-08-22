@@ -40,20 +40,23 @@ int main(int argc, char **argv){
             }
             
             else if(strcmp(token_cadastro[0], "run") == 0){
-                Cadastro *task_encontrada = procurar_task(token_cadastro, lista_task);
-
-                if(task_encontrada == NULL){
-                    printf("task nao encontrada\n");
-                }
-                else if(strcmp(toke_cadastro[1], "sequencial") == 0){
+                if(strcmp(token_cadastro[1], "sequencial") == 0){
                 
                 }
-                else if(strcmp(toke_cadastro[1], "parallel") == 0){
+                else if(strcmp(token_cadastro[1], "parallel") == 0){
 
                 }
                 else{
-                    executar_task(task_encontrada);
-                    
+                    Cadastro *task_encontrada = procurar_task(token_cadastro[1], lista_task);
+    
+                    if(task_encontrada == NULL){
+                        printf("task nao encontrada\n");
+                    }
+                    else{
+                        executar_task(task_encontrada);
+                        
+                    }
+
                 }
             }
 
