@@ -310,4 +310,46 @@ total 96
 -rwxrwxrwx 1 sofiavillela sofiavillela 16832 Aug 22 15:52 processflow
 -rwxrwxrwx 1 sofiavillela sofiavillela     1 Aug 21 16:19 teste.pf
 processflow> exit
-[?2004h]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ g
+[?2004h]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ git add .
+[?2004l[?2004h]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ git commit -m '[7m generaliza procurar_task para receber nome direto[27m generaliza procurar_task para receber nome direto re estrutura run simple[K[K[K[K[K[K[K[K[K[Kore[Kdem de run[K[K[K[K[Ko run/parallel e sequential[C[1@ [C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C'
+[?2004l[main bc7b5a8]  generaliza procurar_task para receber nome direto reestrutura ordem do run parallel e sequential
+ 5 files changed, 43 insertions(+), 13 deletions(-)
+[?2004h]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ git push
+[?2004lEnumerating objects: 13, done.
+Counting objects:   7% (1/13)Counting objects:  15% (2/13)Counting objects:  23% (3/13)Counting objects:  30% (4/13)Counting objects:  38% (5/13)Counting objects:  46% (6/13)Counting objects:  53% (7/13)Counting objects:  61% (8/13)Counting objects:  69% (9/13)Counting objects:  76% (10/13)Counting objects:  84% (11/13)Counting objects:  92% (12/13)Counting objects: 100% (13/13)Counting objects: 100% (13/13), done.
+Delta compression using up to 8 threads
+Compressing objects:  14% (1/7)Compressing objects:  28% (2/7)Compressing objects:  42% (3/7)Compressing objects:  57% (4/7)Compressing objects:  71% (5/7)Compressing objects:  85% (6/7)Compressing objects: 100% (7/7)Compressing objects: 100% (7/7), done.
+Writing objects:  14% (1/7)Writing objects:  28% (2/7)Writing objects:  42% (3/7)Writing objects:  57% (4/7)Writing objects:  71% (5/7)Writing objects:  85% (6/7)Writing objects: 100% (7/7)Writing objects: 100% (7/7), 2.21 KiB | 118.00 KiB/s, done.
+Total 7 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas:   0% (0/5)[Kremote: Resolving deltas:  20% (1/5)[Kremote: Resolving deltas:  40% (2/5)[Kremote: Resolving deltas:  60% (3/5)[Kremote: Resolving deltas:  80% (4/5)[Kremote: Resolving deltas: 100% (5/5)[Kremote: Resolving deltas: 100% (5/5), completed with 5 local objects.[K
+To https://github.com/SofiaVillela/ProcessOverflow.git
+   1305b7e..bc7b5a8  main -> main
+[?2004h]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ e[K[?2004l
+exit
+
+Script done on 2026-08-22 15:55:10-03:00 [COMMAND_EXIT_CODE="0"]
+villela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ [K]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ [K]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[Script started on 2026-08-22 16:00:43-03:00 [TERM="xterm-256color" TTY="/dev/pts/10" COLUMNS="164" LINES="17"]
+[?2004h]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ script -a evidencias.log[16Pgit pushcommit -m ' generaliza procurar_task para receber nome direto reestrutura ordem do run parallel e sequential'[A]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ [C[C[C[Cadd .[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./processflowgcc -o processflow main.c funcoes.c
+[?2004l[?2004h]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ gcc -o processflow main.c funcoes.c[11Pscript -a evidencias.log[16Pgit pushcommit -m ' generaliza procurar_task para receber nome direto reestrutura ordem do run parallel e sequential'[A]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ [C[C[C[Cadd .[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./processflow
+[?2004lprocessflow> task listar /bin/ls -l
+processflow> task data /bin/date
+processflow> run sequential listar data
+total 108
+-rwxrwxrwx 1 sofiavillela sofiavillela     0 Aug 20 11:14 Makefile
+-rwxrwxrwx 1 sofiavillela sofiavillela   105 Aug 20 11:14 README.md
+-rwxrwxrwx 1 sofiavillela sofiavillela 71687 Aug 22 16:00 evidencias.log
+-rwxrwxrwx 1 sofiavillela sofiavillela  2004 Aug 22 15:48 funcoes.c
+-rwxrwxrwx 1 sofiavillela sofiavillela   379 Aug 22 15:48 funcoes.h
+-rwxrwxrwx 1 sofiavillela sofiavillela  3458 Aug 22 15:59 main.c
+-rwxrwxrwx 1 sofiavillela sofiavillela 16832 Aug 22 16:00 processflow
+-rwxrwxrwx 1 sofiavillela sofiavillela     1 Aug 21 16:19 teste.pf
+Sat Aug 22 16:01:12 -03 2026
+processflow> exit
+[?2004h]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ git add.
+[?2004lgit: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+	add
+[?2004h]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/p
