@@ -57,3 +57,28 @@ Cadastro *procurar_task(char **token_cadastro, Cadastro *lista_task){
     }
     return NULL;
 }
+
+void executar_task(Cadastro *task){
+    char *path_exec[MAX_ARGS + 2];
+    path_exec[0] = task->programa;
+    int i;
+    for(i = 1; task->argumentos[i - 1] != NULL; i++){
+        path_exec[i] = task->argumentos[i - 1];
+    }
+    path_exec[i] = NULL;
+
+    pid_t pid = fork();
+    if(pid < 0){
+        printf("Erro: fork falhou.");
+        return;
+    }
+    
+    if(pid == 0){
+        execvp(path_exec[0], path_exec);
+        printf("erro: execvp falhou, programa: %s \n", path_exec[0]);
+        exit(1);
+    }
+    else wait(NULL);
+
+}
+

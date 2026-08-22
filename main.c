@@ -45,8 +45,15 @@ int main(int argc, char **argv){
                 if(task_encontrada == NULL){
                     printf("task nao encontrada\n");
                 }
+                else if(strcmp(toke_cadastro[1], "sequencial") == 0){
+                
+                }
+                else if(strcmp(toke_cadastro[1], "parallel") == 0){
+
+                }
                 else{
-                    printf("task encontrada: %s\n", task_encontrada->nome);
+                    executar_task(task_encontrada);
+                    
                 }
             }
 
