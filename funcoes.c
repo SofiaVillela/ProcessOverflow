@@ -1,0 +1,59 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+#include <sys/wait.h>
+#include "funcoes.h"
+
+
+void cadastra_task(char **token_cadastro, Cadastro **lista_task){
+
+    Cadastro *nova_task = malloc(sizeof(Cadastro));
+    if(nova_task == NULL){
+        printf("Erro: Falha ao alocar dinamicamente cadastro\n");
+        exit(1);
+    }
+
+    nova_task->nome = malloc(strlen(token_cadastro[1]) + 1);
+    strcpy(nova_task->nome, token_cadastro[1]);
+    
+    nova_task->programa = malloc(strlen(token_cadastro[2]) + 1);
+    strcpy(nova_task->programa, token_cadastro[2]);
+
+    for(int i = 3, j = 0; token_cadastro[i] != NULL; i++, j++){
+        nova_task->argumentos[j] = malloc(strlen(token_cadastro[i]) + 1);
+        strcpy(nova_task->argumentos[j], token_cadastro[i]);
+    }
+
+    nova_task->next = NULL;
+
+    if(*lista_task == NULL){
+        *lista_task = nova_task;
+    }
+
+    else if(*lista_task !=NULL){
+        Cadastro *atual = *lista_task;
+        while(atual->next !=NULL){
+            atual = atual->next;
+        }
+        atual->next = nova_task;
+    }
+}
+
+
+Cadastro *procurar_task(char **token_cadastro, Cadastro *lista_task){
+    if(lista_task == NULL){
+        printf("Erro: nenhuma task foi cadastrada");
+        return NULL;
+    }
+
+    Cadastro *procurar = lista_task;
+
+    while(procurar != NULL){
+        if(strcmp(token_cadastro[1],procurar->nome) == 0){
+            return procurar;
+        }
+        procurar = procurar->next;
+    }
+    return NULL;
+}
