@@ -415,4 +415,20 @@ total 112
 -rwxrwxrwx 1 sofiavillela sofiavillela 81415 Aug 22 16:52 evidencias.log
 -rwxrwxrwx 1 sofiavillela sofiavillela  2003 Aug 22 16:37 funcoes.c
 -rwxrwxrwx 1 sofiavillela sofiavillela   380 Aug 22 16:38 funcoes.h
--rwxrwx]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ [K]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ [K]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processo
+-rwxrwx]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ [K]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ [K]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processos/SofiaVillela/processoverflow[00m$ [K]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ [K]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ [K]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:Script started on 2026-08-22 17:17:34-03:00 [TERM="xterm-256color" TTY="/dev/pts/17" COLUMNS="164" LINES="17"]
+[?2004h]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ script -a evidencias.log[16Pgit pushcommit -m ' generaliza procurar_task para receber nome direto reestrutura ordem do run parallel e sequential'[A]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ [C[C[C[Cadd .[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./processflowgcc -o processflow main.c funcoes.c
+[?2004l[?2004h]0;sofiavillela@SofiaVil[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ 
+Script done on 2026-08-22 17:26:43-03:00 [COMMAND_EXIT_CODE="0"]
+a/processoverflow[00m$ [K]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ 
+Script done on 2026-08-22 17:26:43-03:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2026-08-22 18:34:17-03:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="182" LINES="17"]
+[?2004h]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ git pushcommit -m 'feat:run sequential funcionando :)'add .[K[1P../processflowgcc -o processflow main.c funcoes.c[22P./processflow
+[?2004lprocessflow> workdir /temp   mp
+processflow> task listar /bin/ls
+processflow> run listar
+snap-private-tmp							systemd-private-f49d9130f9ba4fc79dfc8e86136d22ba-systemd-logind.service-W1oJ8S
+systemd-private-f49d9130f9ba4fc79dfc8e86136d22ba-chrony.service-FkHHPn	systemd-private-f49d9130f9ba4fc79dfc8e86136d22ba-wsl-pro.service-rphdVF
+processflow> workdir pasta/ne  inexistente
+erro: diretorio nao encontradoprocessflow> exit
+[?2004h]0;sofiavillela@SofiaVillel-PC:

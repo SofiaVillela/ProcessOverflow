@@ -92,6 +92,14 @@ int main(int argc, char **argv){
                 should_run = 0;
             }
 
+
+            else if(strcmp(token_cadastro[0], "workdir") == 0){
+                if(chdir(token_cadastro[1]) == -1){
+                    printf("erro: diretorio nao encontrado\n");
+                }
+                
+            }
+
             else if(strcmp(token_cadastro[0], "input") == 0){
 
             }
@@ -138,8 +146,7 @@ int main(int argc, char **argv){
                 } 
             }
             fclose(workfile);
-        }
-        
+        } 
     }
 
 }

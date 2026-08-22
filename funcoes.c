@@ -82,3 +82,5 @@ pid_t executar_task(Cadastro *task){
 
 }
 
+
+
