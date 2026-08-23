@@ -23,5 +23,6 @@ typedef struct Job{
 void cadastra_task(char **token_cadastro, Cadastro **lista_task);
 Cadastro *procurar_task(char *nome, Cadastro *lista_task);
 pid_t executar_task(Cadastro *task);
+void processar_comando(char **token_cadastro, Cadastro **lista_task, Job **lista_job, int *id_prox_job, int *should_run);
 
 #endif
