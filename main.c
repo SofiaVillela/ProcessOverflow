@@ -43,6 +43,7 @@ int main(int argc, char **argv){
 
 
             else if(strcmp(token_cadastro[0], "run") == 0){
+
                 if(strcmp(token_cadastro[1], "sequential") == 0){
                     for(int i = 2; token_cadastro[i]!= NULL; i++){
 
@@ -76,7 +77,59 @@ int main(int argc, char **argv){
                     }
                 }
 
+                else if(strcmp(token_cadastro[1], "pipe") == 0){
+                    int total_tasks = 0;
+                    for(int i = 2; token_cadastro[i] != NULL; i++){
+                        total_tasks++;
+                    }
+                    int pipes[total_tasks - 1][2];
+                    for(int i = 0; i < total_tasks - 1; i++){
+                        if(pipe(pipes[i]) == -1 ){
+                            printf("erro: nao foi possivel criar pipe\n");
+                            exit(1);
+                        }
+                    }
+                    for(int i = 0; i < total_tasks; i++){
+                        Cadastro *task_encontrada = procurar_task(token_cadastro[i + 2], lista_task);
+                        if(task_encontrada == NULL){
+                            printf("erro: task nao encontrada");
+                            continue;
+                        }
 
+                        pid_t pid_pipe = fork();
+                        if(pid_pipe == 0){
+                            if(i > 0){
+                                dup2(pipes[i-1][0], 0);
+                            }
+                            if(i < total_tasks - 1){
+                                dup2(pipes[i][1], 1);
+                            }
+                            for(int j =0; j < total_tasks - 1; j++){
+                                close(pipes[j][0]);
+                                close(pipes[j][1]);
+                            }
+                            char *path_exec[MAX_ARGS + 2];
+                            path_exec[0] = task_encontrada->programa;
+                            int k;
+                            for(k = 1; task_encontrada->argumentos[k - 1] != NULL; k++){
+                                path_exec[k] = task_encontrada->argumentos[k - 1];
+                            }
+                            path_exec[k] = NULL;
+                            
+                            execvp(path_exec[0], path_exec);
+                            printf("erro: execvp falhou no pipe\n");
+                            exit(1);
+                        }
+                    }
+                    for(int j = 0; j < total_tasks - 1; j++){
+                        close(pipes[j][0]);
+                        close(pipes[j][1]);
+                    }
+
+                    for(int j = 0; j < total_tasks; j++){
+                        wait(NULL);
+                    }
+                }
 
                 else{
                     Cadastro *task_encontrada = procurar_task(token_cadastro[1], lista_task);

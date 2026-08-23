@@ -503,4 +503,27 @@ processflow> jobs
 [1] 2395
 [2] 2508
 processflow> exit
-[?2004h]
+[?2004h]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ [K]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ [K]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoveScript started on 2026-08-23 14:30:52-03:00 [TERM="xterm-256color" TTY="/dev/pts/7" COLUMNS="139" LINES="23"]
+[?2004h]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ gcc -o processflow main.c funcoes.c
+[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmain.c:87:37:[m[K [01;31m[Kerror: [m[Ksubscripted value is neither array nor pointer nor vector
+   87 |                         if(pipe(pipe[01;31m[K[[m[Ki]) == -1 ){
+      |                                     [01;31m[K^[m[K
+[01m[Kmain.c:89:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kreturn[m[K’ with no value, in function returning non-void [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wno-return-mismatch-Wreturn-mismatch]8;;[m[K]
+   89 |                             [01;31m[Kreturn[m[K;
+      |                             [01;31m[K^~~~~~[m[K
+[01m[Kmain.c:9:5:[m[K [01;36m[Knote: [m[Kdeclared here
+    9 | int [01;36m[Kmain[m[K(int argc, char **argv){
+      |     [01;36m[K^~~~[m[K
+[?2004h]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ gcc -o processflow main.c funcoes.c[K]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ gcc -o processflow main.c funcoes.c[K]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ gcc -o processflow main.c funcoes.c[K]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ gcc -o processflow main.c funcoes.c[K]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ gcc -o processflow main.c funcoes.c[K]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ gcc -o processflow main.c funcoes.c[K]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msaVillela/processoverflow[00m$ [K]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ [K]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ [K]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;3ofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ gcc -o processflow main.c funcoes.c[K]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ gcc -o processflow main.c funcoes.c[K]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ Script started on 2026-08-23 14:44:10-03:00 [TERM="xterm-256color" TTY="/dev/pts/9" COLUMNS="139" LINES="9"]
+[?2004h]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ gcc -o processflow main.c funcoes.c
+[?2004l[?2004h]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ gcc -o processflow main.c funcoes.c[22P./processflow
+[?2004lprocessflow> processflow> task listar /bin/ls
+processflow> processflow> task ordenar /usr/bin/sort
+processflow> processflow> task contar /usr/bin/wc -l
+processflow> exit
+[?2004h]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ ./processflowgcc -o processflow main.c funcoes.c[22P./processflowgcc -o processflow main.c funcoes.c
+[?2004l[?2004h]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ gcc -o processflow main.c funcoes.c[22P./processflow
+[?2004lprocessflow> task listar /bin/ls
+processflow> task ordenar /usr/bin/sort
+processflow> task contar /usr/bin/wc -l
