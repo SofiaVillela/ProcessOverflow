@@ -7,6 +7,9 @@ typedef struct Cadastro{
     char *nome;
     char *programa;
     char *argumentos[MAX_ARGS];
+    char *file_input;
+    char *file_output;
+    int append;
     struct Cadastro *next;
 } Cadastro;
 

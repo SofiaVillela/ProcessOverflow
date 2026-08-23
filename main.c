@@ -96,12 +96,18 @@ int main(int argc, char **argv){
             else if(strcmp(token_cadastro[0], "workdir") == 0){
                 if(chdir(token_cadastro[1]) == -1){
                     printf("erro: diretorio nao encontrado\n");
-                }
-                
+                }   
             }
 
             else if(strcmp(token_cadastro[0], "input") == 0){
-
+                Cadastro *task_encontrada = procurar_task(token_cadastro[1], lista_task);
+                if(task_encontrada == NULL){
+                    printf("erro: tarefa nao encontrada.\n");
+                }
+                else{
+                    task_encontrada->file_input = malloc(strlen(token_cadastro[2]) + 1);
+                    strcpy(task_encontrada->file_input, token_cadastro[2]);
+                } 
             }
 
             else if(strcmp(token_cadastro[0], "output") == 0){

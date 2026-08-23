@@ -431,4 +431,24 @@ snap-private-tmp							systemd-private-f49d9130f9ba4fc79dfc8e86136d22ba-systemd-
 systemd-private-f49d9130f9ba4fc79dfc8e86136d22ba-chrony.service-FkHHPn	systemd-private-f49d9130f9ba4fc79dfc8e86136d22ba-wsl-pro.service-rphdVF
 processflow> workdir pasta/ne  inexistente
 erro: diretorio nao encontradoprocessflow> exit
-[?2004h]0;sofiavillela@SofiaVillel-PC:
+[?2004h]0;sofiavillela@SofiaVillel-PC:Script started on 2026-08-23 07:20:42-03:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="158" LINES="17"]
+[?2004h]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ git pushcommit -m 'feat: workdir e tratamento caso nao funcione'add .[K./processflowscript -a evidencias.log[11P./processflow
+[?2004lprocessflow> task ordenar /usr/bin/sort
+processflow> exit
+[?2004h]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ ./processflow[5Pgit pushcommit -m 'feat: workdir e tratamento caso nao funcione'add .[K./processflowscript -a evidencias.log[11P./processflowgcc -o processflow main.c funcoes.c
+[?2004l[?2004h]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ gcc -o processflow main.c funcoes.c[22P./processflow[5Pgit push[K[K[K[K[K[K[K[K[7mtask ordenar /usr/bin/sort[27mtask ordenar /usr/bin/sort
+[?2004lCommand 'task' not found, but can be installed with:
+sudo snap install task         # version v3.51.1, or
+sudo apt  install taskwarrior  # version 2.6.2+dfsg-3
+See 'snap info task' for additional versions.
+[?2004h]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ task ordenar /usr/bin/sortgcc -o processflow main.c funcoes.c
+[?2004l[?2004h]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ gcc -o processflow main.c funcoes.c[9Ptask ordenar /usr/bin/sortgcc -o processflow main.c funcoes.c[22P./processflow
+[?2004lprocessflow> ^[[A^[[A        task ordenar /usr/bin/sort
+processflow>  input ordenar nomes.txt^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D                                        
+processflow> run ordenar
+Erro: nao foi possivel abrir arquivo de entrada
+processflow> ^[[A^[[A        input ordenar nomes.txt
+processflow> ^[[A    run ordenar
+Erro: nao foi possivel abrir arquivo de entrada
+processflow> ^[[A    exit
+[?2004h]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaV

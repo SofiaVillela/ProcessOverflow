@@ -26,6 +26,10 @@ void cadastra_task(char **token_cadastro, Cadastro **lista_task){
     }
 
     nova_task->next = NULL;
+    nova_task->file_input = NULL;
+    nova_task->file_output = NULL;
+    nova_task->append = 0;
+
 
     if(*lista_task == NULL){
         *lista_task = nova_task;
@@ -68,12 +72,25 @@ pid_t executar_task(Cadastro *task){
     path_exec[i] = NULL;
 
     pid_t pid = fork();
+
+    
     if(pid < 0){
         printf("Erro: fork falhou.");
         return -1;
     }
     
     if(pid == 0){
+        if(task->file_input != NULL){
+            FILE *arquivo = fopen(task->file_input, "r");
+    
+            if(arquivo == NULL){
+                printf("Erro: nao foi possivel abrir arquivo de entrada\n");
+                exit(1);
+            }
+    
+            int direcionador = fileno(arquivo);
+            dup2(direcionador, 0);
+        }
         execvp(path_exec[0], path_exec);
         printf("erro: execvp falhou, programa: %s \n", path_exec[0]);
         exit(1);
