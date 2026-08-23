@@ -80,6 +80,7 @@ pid_t executar_task(Cadastro *task){
     }
     
     if(pid == 0){
+
         if(task->file_input != NULL){
             FILE *arquivo = fopen(task->file_input, "r");
     
@@ -87,10 +88,27 @@ pid_t executar_task(Cadastro *task){
                 printf("Erro: nao foi possivel abrir arquivo de entrada\n");
                 exit(1);
             }
-    
             int direcionador = fileno(arquivo);
             dup2(direcionador, 0);
         }
+
+        if(task->file_output != NULL){
+            FILE *arquivo;
+            if(task->append == 1){
+                arquivo = fopen(task->file_output, "a");
+            }
+            else{
+                arquivo = fopen(task->file_output, "w");
+            }
+
+            if(arquivo == NULL){
+                printf("erro: nao foi possivel abrir o arquivo de saida\n");
+                exit(1);
+            }
+            int direcionador = fileno(arquivo);
+            dup2(direcionador, 1);
+        }
+
         execvp(path_exec[0], path_exec);
         printf("erro: execvp falhou, programa: %s \n", path_exec[0]);
         exit(1);

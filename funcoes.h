@@ -13,6 +13,13 @@ typedef struct Cadastro{
     struct Cadastro *next;
 } Cadastro;
 
+typedef struct Job{
+    int job_id;
+    pid_t pid;
+    char *nome_task;
+    struct Job *next;
+} Job;
+
 void cadastra_task(char **token_cadastro, Cadastro **lista_task);
 Cadastro *procurar_task(char *nome, Cadastro *lista_task);
 pid_t executar_task(Cadastro *task);

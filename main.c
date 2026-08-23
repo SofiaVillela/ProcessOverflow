@@ -10,6 +10,8 @@ int main(int argc, char **argv){
     char task[TAM_TASK]; 
     int should_run = 1;
     Cadastro *lista_task = NULL;
+    Job *lista_job = NULL;
+    int id_prox_job = 1;
 
     while(should_run){
 
@@ -88,6 +90,8 @@ int main(int argc, char **argv){
                 }
             }
 
+
+
             else if(strcmp(token_cadastro[0], "exit") == 0){
                 should_run = 0;
             }
@@ -98,6 +102,8 @@ int main(int argc, char **argv){
                     printf("erro: diretorio nao encontrado\n");
                 }   
             }
+
+
 
             else if(strcmp(token_cadastro[0], "input") == 0){
                 Cadastro *task_encontrada = procurar_task(token_cadastro[1], lista_task);
@@ -111,18 +117,86 @@ int main(int argc, char **argv){
             }
 
             else if(strcmp(token_cadastro[0], "output") == 0){
-
+                Cadastro *task_encontrada = procurar_task(token_cadastro[1], lista_task);
+                if(task_encontrada == NULL){
+                    printf("Erro: tarefa nao encontrada");
+                }
+                else{
+                    task_encontrada->file_output = malloc(strlen(token_cadastro[2]) + 1);
+                    strcpy(task_encontrada->file_output, token_cadastro[2]);
+                }
             }
 
             else if(strcmp(token_cadastro[0], "append") == 0){
-                
+                Cadastro *task_encontrada = procurar_task(token_cadastro[1], lista_task);
+                if(task_encontrada == NULL){
+                    printf("Erro: tarefa nao encontrada");
+                }
+                else{
+                    task_encontrada->file_output = malloc(strlen(token_cadastro[2]) + 1);
+                    strcpy(task_encontrada->file_output, token_cadastro[2]);
+                    task_encontrada->append = 1;
+                }
             }
+
+
             
             else if(strcmp(token_cadastro[0], "start") == 0){
+                Cadastro *task_encontrada = procurar_task(token_cadastro[1], lista_task);
+                if(task_encontrada == NULL){
+                    printf("Erro: tarefa nao encontrada");
+                }
+                else{
+                    pid_t novo_pid = executar_task(task_encontrada);
+                    Job *novo_job = malloc(sizeof(Job));
+                    if(novo_job == NULL){
+                        printf("Erro: falha ao alocar job\n");
+                        exit(1);
+                    }
+                        novo_job->job_id = id_prox_job;
+                        novo_job->pid = novo_pid;
+                        novo_job->nome_task = malloc(strlen(token_cadastro[1]) + 1);
+                        strcpy(novo_job->nome_task, token_cadastro[1]);
+                        novo_job->next = NULL;
 
+                        if(lista_job == NULL){
+                            lista_job = novo_job;
+                        }
+                        else if(lista_job != NULL){
+                            Job *atual = lista_job;
+                            while(atual->next != NULL){
+                                atual = atual->next;
+                            }
+                            atual->next = novo_job;
+                        }
+
+                        id_prox_job++;
+                        printf("[%d] %d\n", novo_job->job_id, novo_job->pid);
+                }
             }
-            
-
+            else if(strcmp(token_cadastro[0], "jobs") == 0){
+                Job *atual = lista_job;
+                while(atual != NULL){
+                    printf("[%d] %d\n", atual->job_id, atual->pid);
+                    atual = atual->next;
+                }
+            }
+            else if(strcmp(token_cadastro[0], "wait") == 0){
+                int id_procurado = atoi(token_cadastro[1]);
+    
+                Job *atual = lista_job;
+                while(atual != NULL){
+                    if(atual->job_id == id_procurado){
+                        waitpid(atual->pid, NULL, 0);
+                        break;
+                    }
+                    atual = atual->next;
+                }
+                
+                if(atual == NULL){
+                    printf("Erro: job nao encontrado\n");
+                }
+            }
                 
         }
     

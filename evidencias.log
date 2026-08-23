@@ -451,4 +451,56 @@ processflow> ^[[A^[[A        input ordenar nomes.txt
 processflow> ^[[A    run ordenar
 Erro: nao foi possivel abrir arquivo de entrada
 processflow> ^[[A    exit
-[?2004h]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaV
+[?2004h]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVScript started on 2026-08-23 07:34:15-03:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="158" LINES="17"]
+[?2004h]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ git pushcommit -m 'feat: redirecionamento input'add .[K./processflowgcc -o processflow main.c funcoes.c
+[?2004l[?2004h]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ gcc -o processflow main.c funcoes.cit push[K
+[?2004lEverything up-to-date
+[?2004h]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ git pushcc -o processflow main.c funcoes.cit push[Kcommit -m 'feat: redirecionamento input'add .[K./processflowgcc -o processflow main.c funcoes.c[22P./processflow
+[?2004lprocessflow> task ordenar /usr/bin/sort
+processflow> output ordenar /                input ordenar input.txt
+processflow> output ordenar resultado.txt
+processflow> run ordenar
+processflow> exit
+[?2004h]0;sofiavillela@SofiaVillel-PC: /Script started on 2026-08-23 07:35:42-03:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="158" LINES="17"]
+[?2004h]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ ./processflow[5Pgit pushcc -o processflow main.c funcoes.c[11Pscript -a evidencias.loggcc -o processflow main.c funcoes.c
+[?2004l[?2004h]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ gcc -o processflow main.c funcoes.c[22P./processflow
+[?2004lprocessflow> task ordenar /usr/bin/sort
+processflow> input ordenar input.txt
+processflow> output ordenar resultado.txt
+processflow> run oride   denar
+processflow> car   task cat cat         ver_resultado /bin/cat resultado.txt
+processflow> run ver_resultado
+abacaxi
+banana
+laranja
+melancia
+processflow> exit
+[?2004h]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ [K]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ [K]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ [K]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ [K]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ [K]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ [K]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ [K]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ [K]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ [K]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ [K]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflowScript started on 2026-08-23 09:09:47-03:00 [TERM="xterm-256color" TTY="/dev/pts/7" COLUMNS="164" LINES="23"]
+[?2004h]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ ./processflow[5Pgit pushcc -o processflow main.c funcoes.c
+[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmain.c:156:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kproximo_job_id[m[K’ undeclared (first use in this function)
+  156 |                         novo_job->job_id = [01;31m[Kproximo_job_id[m[K;
+      |                                            [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[Kmain.c:156:44:[m[K [01;36m[Knote: [m[Keach undeclared identifier is reported only once for each function it appears in
+[?2004h]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVScript started on 2026-08-23 09:10:50-03:00 [TERM="xterm-256color" TTY="/dev/pts/9" COLUMNS="164" LINES="23"]
+[?2004h]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ ./processflow[5Pgit pushcc -o processflow main.c funcoes.c
+[?2004l[01m[Kmain.c:[m[K In function ‘[01m[Kmain[m[K’:
+[01m[Kmain.c:156:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kproximo_job_id[m[K’ undeclared (first use in this function)
+  156 |                         novo_job->job_id = [01;31m[Kproximo_job_id[m[K;
+      |                                            [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[Kmain.c:156:44:[m[K [01;36m[Knote: [m[Keach undeclared identifier is reported only once for each function it appears in
+[?2004h]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVScript started on 2026-08-23 12:02:36-03:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="139" LINES="23"]
+[?2004h]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ gcc -o processflow main.c funcoes.c
+[?2004l[?2004h]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ 
+[?2004l[?2004h]0;sofiavillela@SofiaVillel-PC: /mnt/c/Users/SofiaVillela/processoverflow[01;32msofiavillela@SofiaVillel-PC[00m:[01;34m/mnt/c/Users/SofiaVillela/processoverflow[00m$ gcc -o processflow main.c funcoes.c[22P./processflow
+[?2004lprocessflow> task longo /bin/sleep 5
+processflow> start longo
+[1] 2395
+processflow> task longo2 /bin/sleep 3
+processflow> start longo2
+[2] 2508
+processflow> jobs
+[1] 2395
+[2] 2508
+processflow> exit
+[?2004h]
