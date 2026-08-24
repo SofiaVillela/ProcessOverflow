@@ -10,6 +10,7 @@ ProcessFlow é um orquestrador de processos. Recebe tarefas que representam prog
 
 
 ## Como executar
+gcc -o processflow main.c funcoes.c
 
 Modo interativo: ./processflow
 Modo workflow: ./processflow arquivo.pf
