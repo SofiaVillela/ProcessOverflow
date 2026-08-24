@@ -1,5 +1,0 @@
-task teste /bin/echo antes do exit
-run teste
-exit
-task teste2 /bin/echo depois do exit
-run teste2
