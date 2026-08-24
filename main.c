@@ -69,7 +69,7 @@ int main(int argc, char **argv){
                 for(int i = 1; (token_cadastro[i] = strtok(NULL, " ")) != NULL; i++){}
 
                 processar_comando(token_cadastro, &lista_task, &lista_job, &id_prox_job, &should_run);
-            
+                if(should_run == 0) break;
             
             } 
             fclose(workfile);
